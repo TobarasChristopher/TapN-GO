@@ -1,0 +1,11 @@
+venueID,category,name,description,price,thumbnailURL,id
+1,dessert,milkshake,a strawberry milkshake with cream,5.99,exampledessert1.png,1
+1,dessert,pie,a warm apple pie,7.99,exampledessert2.png,2
+1,dessert,ice cream,hazenut ice cream,9.99,exampledessert3.png,3
+1,drink,Cola,Refreshing Coca Cola,1.99,cola.png,4
+1,starter,Croissant,Delicious Croissant,7.99,croissant.png,6
+1,main,Chilly Fries,Cold Fries,14.99,idk,7
+1,main,Chilly Fries,Cold Fries,14.99,idk,8
+1,drink,Water,refreshing h2o,1.99,idk,10
+1,main,Chillys BabyBack Ribs,Ribs,19.99,idk,11
+1,dessert,Literal Feces,uh,99.99,idk,12

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles2.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <script type="module" src="js/venueedit.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+        <title>Manager Settings Page</title>
+
+    </head>
+
+    <body id = "primary">
+ 
+        <div class="container">
+            <div class = "SelectVenueHeader2">
+                <h4><span> Tap & Go </span> Venue Edit </h4>
+            </div>
+
+            <div class = "menuPageTitle">
+                    
+                <p> Edit Venue Colour Scheme</p>
+                 </div>
+                
+                 <br>
+
+                <label for="Primary">Primary </label>
+                <input class="inputBar" type="text" name="Primary" id ="myColour" placeholder="The main Colour..."> 
+                <button type = "button" id="myButton" onclick = "colorChange()"> Submit</button>
+
+            
+            
+                <br>
+                <br>
+                <label for="Secondary">Secondary </label>
+                <input class="inputBar" type="text" name="shoename" placeholder="The secondary Colour...">
+                <button type = "button" id = myButtonTwo> submit</button>
+
+                <br>
+                <br>
+
+        <div class = "menuPageTitle">
+            <p> Edit Manager Password</p>
+        </div>  
+
+        <br>
+
+            <label for="oldPass">Old Password</label>
+            <input class="inputBar" type="text" name="oldPass" placeholder="Enter your old password...">
+            <br>
+            <br>
+            <label for="newPass">New Password</label>
+            <input class="inputBar" type="text" name="newPass" placeholder="Enter your new password...">
+            <br>
+   
+
+       </div>
+
+
+            <div class = "menuDescription">
+                <p> Edit Venue Description</p>
+            
+                <textarea  cols="30" rows="10" id = "editBoxMenu"></textarea>
+                
+                    <script>
+                    var editBoxMenu = document.getElementById("editBoxMenu");
+            
+                        // Check whether autosave key exists
+                        // (this will exist when the page is accidentally refreshed)
+                        if (sessionStorage.getItem("autosave")) {
+                        // Restore the contents of the text input box
+                        editBoxMenu.value = sessionStorage.getItem("autosave");
+                        }
+                        
+                        // Listen for change event of text input box
+                        editBoxMenu.addEventListener("change", function() {
+                        // Save the results to the sessionStorage object
+                        sessionStorage.setItem("autosave", editBoxMenu.value);
+                        });
+                        </script>
+            </div>
+            
+            
+            
+
+        </div>
+
+                    
+
+    </body>
+</html>

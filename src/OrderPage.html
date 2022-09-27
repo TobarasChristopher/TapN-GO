@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <title>Test</title>
+      <link rel="stylesheet"  href="css/checkout.css">
+      <script type="module" src="js/orderpage.js"></script>
+      
+   </head>
+   <body id="primary">
+      <div class="checkout-form">
+         <h1 class="checkout"> Orders </h1>
+         <div id="options" class="options">
+            <h2>Options</h2>
+            <h3 id="pstatus">Mark Complete</h3>
+            <input class="order-input-box" id="mComplete" type="text" name="mComplete" placeholder="Order ID">
+            <button class="checkout-btn" type="submit" id="updateOrderbtn">Mark Complete</button>
+            <h3 id="pstatus">View Reciept</h3>
+            <input class="order-input-box" id="vCardDetails" type="text" name="vCardDetails" placeholder="Order ID">
+            <button class="checkout-btn" id="viewRecieptbtn">View Reciept</button>
+         </div>
+         <div id="orderList" class="orderList">
+            <h2 id="status" class="checkout">Uncompleted</h2>
+            
+         </div>
+            <div class="DisplayOrder">
+                  <div id="pendingOrders" class="DisplayName">
+                  </div>   
+            </div>
+            <div id="orderList" class="orderList">
+               <h2 id="status" class="checkout">Completed</h2>    
+            </div>
+               <div class="DisplayOrder">
+                     <div id="completedOrders" class="DisplayName">
+                     </div>   
+               </div>
+               
+            
+      </div>
+      
+         
+      
+       
+   </body> 
+</html> 

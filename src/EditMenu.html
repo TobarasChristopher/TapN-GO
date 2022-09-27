@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <link rel="stylesheet" type="text/css" href="css/checkout.css">
+        <script type="module" src="js/menuEdit.js"></script>
+
+    </head>
+    <body id="primary">
+        <div class="container">
+            <div class="title">
+            </div>
+            <div class="checkout-form">
+                <h1 class="checkout"> Editing the Menu</h1>
+
+                <div id="cartList" class="addmenuitem">  
+                    <h2 class="checkout"> Add an Item</h2>
+                
+                    <div class="input-box">
+                    <input id="mnameTF" type="text" name="mName" placeholder="Name of Item">
+                    </div>
+                    <div class="input-box">
+                    <input id="mCategory" type="select" name="mCategory" placeholder="Category">
+                    </div>
+                    <div class="input-box">
+                        <input id="mDesc" type="text" name="mDesc" placeholder="Description">
+                    </div>
+                    <div class="input-box">
+                        <input id="mPrice" type="float" name="mPrice" placeholder="Price">
+                    </div>
+                    <button id="addbtn" class="checkout-btn">Add Menu Item</button>
+                </div>  
+                <div class="menuoptions">
+                    <h2 class="checkout"> Delete an Item</h2>
+                    <div class="input-box">
+                        <input id="mnameTF" type="text" name="mdName" placeholder="Name of the item">
+                        </div>
+                        <button id="deletebtn" class="checkout-btn">Delete Menu Item</button>
+                </div> 
+             </div>
+            <div class="menu">
+                <h2 class="menu-heading"> 
+                    Starters
+                </h2>
+                <div id="menustarter">
+
+                </div>
+                
+                <h2 class="menu-heading"> 
+                    Main
+                </h2>
+                <div id="menumain">
+
+                </div>
+                
+                <h2 class="menu-heading"> 
+                    Dessert
+                </h2>
+                <div id="menudessert"></div>
+                
+                <h2 class="menu-heading"> 
+                    Drinks
+                </h2>
+                <div id="menudrink"></div>
+
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

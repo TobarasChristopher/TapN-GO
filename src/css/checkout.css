@@ -1,0 +1,296 @@
+*{
+    padding:0;
+    margin: 0;
+    
+}
+body{
+    padding: 1rem;
+    background-color: white;
+    font-family: sans-serif;
+
+}
+
+.checkout-form{
+    width: 1000px;
+    background: rgba(0,0,0,0.8);
+    margin:  auto;
+    padding: 50px 0;
+    color: black;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px ;
+}
+h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h3{
+    padding-left: 100px;
+    margin-bottom: 40px ;
+    margin-top: 40px;
+    color: white;
+}
+
+h4{
+    color: white;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+}
+
+.input-box{
+    margin: 31px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.input-box input{
+    width: 90%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+
+}
+
+
+.checkout-btn{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid white;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+    
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.title h4{
+    text-transform: capitalize;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.title h4 span{
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: -5px;
+}
+
+.title h4:before{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: red;
+    bottom: 0;
+    left: 18%;
+}
+
+.read-more-container{
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.menu-item-description{
+    padding: 2rem;
+    background-color: azure;
+    border-radius: 2px;
+    line-height: 1.4rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,.1);
+}
+
+.read-more-btn{
+    color: #0984e3;
+    cursor: pointer;
+}
+
+.read-more-text{
+    display: none;
+}
+
+.read-more-text--show{
+    display: inline;
+}
+
+.order-btn{
+    margin: 40px auto 20px;
+    width: 80%;
+    display: flex;
+    outline: auto red;
+    padding: 8px 0;
+    cursor: pointer;
+    background: red;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+.menu{
+    font-family: sans-serif;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+
+.menu-heading{
+    margin:20px 0;
+    padding-bottom: 1em;
+    border-bottom:2px solid #ccc;
+}
+
+.menu-group{
+    margin-left: 2%;
+    padding: 2px;
+    display: inline-block;
+}
+
+.upload-picture{
+    width: 350px;
+    top: 20%;
+    left: 100%;
+    transform: translate(80%, -80%);
+    position:absolute;
+    margin-right: 85%;
+}
+.cart{  
+
+    float:right;
+    width: 500px;
+    margin:20px 0;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+}
+
+.purchase{
+    float:left;
+}
+.cancel{
+    float: right;
+}
+
+.checkout{
+    color: white;
+    padding-top: 10px;
+
+}
+
+.cartList{
+    color:white;
+    text-align: left;
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#invisible{
+    visibility: hidden;
+}
+.orderList{
+    color:white;
+    text-align: left;
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-right: 400px;
+}
+.contList{
+    color:white;
+    text-align: left;
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.options{
+    
+        color:white;
+        text-align: left;
+        border: 2px solid white;
+        width:350px;
+        float:right;
+        position: sticky;
+        top: 100px;
+        border-radius: 10px;
+        padding-bottom: 10px;
+        margin-right: 10px;
+
+}
+
+.order-input-box{
+    margin-left: 50px;
+    margin-right: 20px;
+    width: 250px;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.addmenuitem{
+    color:white;
+    text-align: left;
+    border: 2px solid white;
+    margin-left: 100px;
+    margin-right: 500px;
+    border-radius: 10px;
+}
+.menuoptions{
+    
+    color:white;
+    position: absolute;
+    right:500px;
+    top:237px;
+    text-align: left;
+    border: 2px solid white;
+    height: 230px;
+    width:350px;
+    float:right;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+
+}
+
+.menu h3{
+    color:black;
+    margin-bottom: 10px ;
+    margin-top: 10px;
+}
